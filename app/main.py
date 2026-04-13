@@ -23,3 +23,14 @@ async def analyze_log(file: UploadFile):
     results = analyze(features, model)
 
     return {"results": results}
+
+@app.get("/summary")
+def summary():
+    return {
+        "message": "System ready for threat detection",
+        "supported_attacks": [
+            "Brute Force (T1110)",
+            "Credential Stuffing (T1110.004)",
+            "Anomalous Behavior (T1036)"
+        ]
+    }

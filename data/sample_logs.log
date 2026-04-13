@@ -1,3 +1,14 @@
-Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
-Failed password for root from 192.168.1.10 port 22 ssh2
-Failed password for user from 192.168.1.11 port 22 ssh2
+Jul 10 10:15:32 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
+Jul 10 10:15:35 server sshd[1235]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
+Jul 10 10:15:37 server sshd[1236]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2
+Jul 10 10:15:40 server sshd[1237]: Failed password for invalid user test from 192.168.1.10 port 22 ssh2
+Jul 10 10:15:43 server sshd[1238]: Failed password for invalid user guest from 192.168.1.10 port 22 ssh2
+Jul 10 10:15:46 server sshd[1239]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
+
+Jul 10 10:20:10 server sshd[1240]: Accepted password for user1 from 192.168.1.20 port 22 ssh2
+Jul 10 10:21:15 server sshd[1241]: Accepted password for user2 from 192.168.1.21 port 22 ssh2
+
+Jul 10 10:25:20 server sshd[1242]: Failed password for user1 from 192.168.1.30 port 22 ssh2
+Jul 10 10:25:25 server sshd[1243]: Failed password for user2 from 192.168.1.30 port 22 ssh2
+Jul 10 10:25:30 server sshd[1244]: Failed password for user3 from 192.168.1.30 port 22 ssh2
+Jul 10 10:25:35 server sshd[1245]: Failed password for user4 from 192.168.1.30 port 22 ssh2
